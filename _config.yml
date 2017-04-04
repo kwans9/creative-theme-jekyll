@@ -1,12 +1,12 @@
 # Site settings
-title:
-email:
+title: University Bookstore
+email: kwans9@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "" # the base hostname & protocol for your site
+url: "kwans9.github.io" # the base hostname & protocol for your site
 
-twitter_username:
-github_username:
+twitter_username: kwans9
+github_username: kwans9
 
 # Build settings
 markdown: kramdown
