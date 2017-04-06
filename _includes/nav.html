@@ -15,52 +15,115 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 		<ul class="nav navbar-nav navbar-right">
 
-		    <li class="dropdown mega-dropdown">
-    			<a href="#" class="dropdown-toggle" data-toggle="dropdown">FIND YORU HOTEL <span class="caret"></span></a>				
-				<div class="row"><ul class="dropdown-menu mega-dropdown-menu">
-					<li class="col-sm-4">
-    					<ul>
-							<li class="dropdown-header">Features</li>
-							<li><a href="#">Auto Carousel</a></li>
-                            <li><a href="#">Carousel Control</a></li>
-                            <li><a href="#">Left &amp; Right Navigation</a></li>
-							<li><a href="#">Four Columns Grid</a></li>
-							<!-- <li class="divider"></li>
-							<li class="dropdown-header">Fonts</li>
-                            <li><a href="#">Glyphicon</a></li>
-							<li><a href="#">Google Fonts</a></li> -->
-						</ul>
-					</li>
-					<li class="col-sm-4">
-						<ul>
-							<li class="dropdown-header">Plus</li>
-							<li><a href="#">Navbar Inverse</a></li>
-							<li><a href="#">Pull Right Elements</a></li>
-							<li><a href="#">Coloured Headers</a></li>                            
-							<li><a href="#">Primary Buttons &amp; Default</a></li>							
-						</ul>
-					</li>
-					<li class="col-sm-4">
-						<ul>
-							<li class="dropdown-header">Much more</li>
-                            <li><a href="#">Easy to Customize</a></li>
-							<li><a href="#">Calls to action</a></li>
-							<li><a href="#">Custom Fonts</a></li>
-							<li><a href="#">Slide down on Hover</a></li>                         
-						</ul>
-					</li>
-                   
-				</ul>				
-			    </div></li>
+
+
+<li class="dropdown"><a class="dropdown-toggle clown" href="#" data-toggle="dropdown"> Home </a>
+<div class="dropdown-menu menu-home">
+<style>
+@media only screen and (max-width : 1200px) {
+	.dropdown-menu  { width: 960px }
+	.menu-home   { left:-580px !important; }
+	.menu-books   { left:-304.5px !important; }
+	.menu-computer   { left:-394.5px !important; }
+	.menu-supply   { left:-517px !important;  }
+	.menu-razorbackshop   { left:-621px !important;}
+	.menu-grad   { left:-772px !important; }
+	
+	/*
+	.menu-current-students   { left:-167px !important;}
+	.menu-academics   { left:-427px !important; }
+	.menu-research   { left:-546px !important; }
+	.menu-alumni   { left:-729px !important; top:57px; }
+*/
+	.dropdown-heading {font-size: 18px !important;}  
+}
+@media only screen and (max-width : 1000px) {
+	.dropdown-menu  { max-width: 768px; width: 100%;}
+	
+	.menu-home   { left:-346px !important; }
+	.menu-books   { left:-276px !important; }
+	.menu-computer   { left:-325.5px !important; }
+	.menu-supply   { left:-401.5px !important;  }
+	.menu-razorbackshop   { left:-462px !important;}
+	.menu-grad   { left:-563.5px !important; }
+
+	.dropdown-heading {font-size: 16.4px !important;} 
+	.dropdown-menu .media img {max-width: 100px;}
+}
+
+
+.dropdown-menu  {
+  width:960px;
+  padding-left: 28px;
+  padding-right: 16px;
+  padding-top: 19px; 
+  padding-bottom: 40px;
+  background: rgba(255,255,255,1);
+  border: 1px solid rgba(220, 220, 220, 1);
+  border-top: 0px;
+}
+@media only screen and (min-width : 1201px) {
+.menu-home   { left:-577px !important; }
+}
+
+</style>
+<div class="row">
+<div class="col-md-4 col-sm-4 col-xs-12">
+<h4>Departments</h4>
+<h5><a href="{{f:295779}}">Bookstore Home</a></h5>
+<hr />
+<h5><a href="{{f:298399}}">Textbooks</a></h5>
+<p>Pre-Order, Order, Rent Textbooks. Learn about BuyBack and Affordability.</p>
+<hr />
+<h5><a href="{{f:298586}}">General Books</a></h5>
+<p>Trade paperbacks, bestsellers, UA Press, and author events.</p>
+<hr />
+<h5><a href="{{f:299351}}">Computer Store</a></h5>
+<p>Offical Apple and Dell dealers, Service Center, Trade-Ins and more!</p>
+<hr />
+<h5><a href="http://shop.uofastore.com/">Razoback Shop</a></h5>
+<p>Clothing, Gifts, Official Merchandise, Namebrand Shopping</p>
+<hr />
+<h5><a href="{{f:299466}}">School Supplies</a></h5>
+<p>Official Staples merchandise and all your school or office supply needs!</p>
+<hr />
+<h5><a href="{{f:299475}}">Graduation</a></h5>
+<p>Graduation needs from regalia to announcements, frames, and class rings.</p>
+</div>
+<div class="col-md-4 col-sm-4 col-xs-12" style="border-left: 1px dotted #dedede;">
+<h4>Customer Services</h4>
+<h5><a href="{{f:298701}}">Customer Loyalty</a></h5>
+<h5><a href="{{f:298402}}">Donation Request</a></h5>
+<h5><a href="{{f:298973}}">Sustainability<br /></a></h5>
+<h5><a href="{{f:298399}}#bookstore-policy">Policies</a></h5>
+<h5><a href="{{f:301575}}">Textbook Adoptions</a></h5>
+<h5><a href="{{f:298701}}#account">Account Definitions</a></h5>
+<h5><a href="{{f:298586}}#event">Book Event Registration</a></h5>
+<h5><a href="{{f:302043}}">Clinique Cosmetics</a></h5>
+</div>
+<div class="col-md-4 col-sm-4 col-xs-12" style="border-left: 1px dotted #dedede;">
+<h4>Hours and Locations</h4>
+<p>Bookstore Hours</p>
+<ul class="list-unstyled">
+<li>Monday<span class="pull-right">8am-7pm</span></li>
+<li>Tuesday<span class="pull-right">8am-7pm</span></li>
+<li>Wednesday<span class="pull-right">8am-7pm</span></li>
+<li>Thursday<span class="pull-right">8am-7pm</span></li>
+<li>Friday<span class="pull-right">8am-6pm</span></li>
+<li>Saturday<span class="pull-right">10am-5pm</span></li>
+<li>Sunday<span class="pull-right">12am-5pm</span></li>
+</ul></div>
+</div>
+</li>
 
                 <li>
                     <a class="page-scroll" href="#about">How To</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#services">Student</a>
+                    <a class="page-scroll" href="#services">About</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#portfolio">Faculty</a>
+                    <a class="page-scroll" href="#portfolio">Portfolio</a>
                 </li>
                 <li>
                     <a class="page-scroll" href="#contact">Contact</a>
